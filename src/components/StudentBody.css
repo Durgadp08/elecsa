@@ -1,0 +1,160 @@
+body{
+    /* background-color: bisque; */
+    
+
+}
+.studentparent{
+    /* background-image: url(../photos/web\ bg.png); */
+    /* background-size: 100vw 100vh; */
+    background-color: #40e0d0;
+}
+.studentsbody{
+    width: 85%;
+    margin: auto;
+    /* margin-top: 10%; */
+    background-color: #40e0d0;
+    
+}
+.studentsbody h2{
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: 'Lora', serif; */
+/* font-family: 'Urbanist', sans-serif; */
+    
+}
+hr{
+    /* color: white; */
+}
+.wrapper{
+    padding-left: 4%;
+    padding-right: 4%;
+    /* background-color: rgb(44, 164, 164); */
+
+}
+
+
+.studentsection{
+    display: flex;
+   /* margin-right: 3vmin; */
+   flex-wrap: wrap;
+   gap: 10px;
+   justify-content: center;
+   overflow: auto;
+}
+
+/* #freeshh */
+
+.scard {
+    width: 250px;
+    height: 350px;
+    background-color:white;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;  
+    font-family: Arial, Helvetica, sans-serif;
+    
+    display: flex; 
+    flex-direction: column; /* Stack child elements vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center;
+}
+
+.temp{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.cardimg:hover{
+
+    opacity: 50%;
+}
+
+
+.scard img {
+    width: 200px;
+    height: 200px;
+    /* border-radius: 50%; */
+    /* vertical-align: middle; */
+ /* object-fit: cover; */
+    
+}
+
+
+.scard h2 {
+    margin: 10px 0;
+    font-size: medium;
+    color: black;
+
+}
+
+
+.scard p {
+    margin: 5px 0;
+    color: black;
+    
+}
+
+
+  
+
+ .icon {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+
+.temp:hover  .icon {
+  
+    opacity: 1;
+    transition: all 0.3s ease;
+
+}
+
+
+
+@media (max-width: 768px) {
+    /* Center the card elements */
+    .scard {
+        margin:  auto;
+        text-align: center;
+    }
+    .card-section{
+        margin:10px 0;
+    }
+    .studentsbody{
+        
+       width: 80%;
+       /* margin: auto; */
+        /* margin-left: 10%; */
+    }
+    .studentparent{
+        width: 100%;
+    }
+    .card-section{
+        align-content: center;
+    }
+   
+}
+
+@media (max-width:320px) {
+     .scard{
+        width: 90%;
+     }
+}
+
+@media (min-width:1890px) and  (max-width:2560px) {
+      .studentsbody{
+        width: 60%;
+      }
+}
