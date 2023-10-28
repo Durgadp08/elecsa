@@ -25,7 +25,7 @@ const Footer = () => {
       <footer className="footer">
    
         <div className="fsection1">
-        <LocationOnIcon fontSize='small' /> <a href="https://www.nitpy.ac.in/" style={{color:'black',textDecoration:'none'}} target='blank'> <p>Karaikal,NIT Puducherry</p></a>
+        <LocationOnIcon fontSize='small' /> <a href="https://maps.app.goo.gl/pVMmN87wgAFLGoFA7" style={{color:'black',textDecoration:'none'}} target='blank'> <p>Karaikal,NIT Puducherry</p></a>
         </div>
 
        
@@ -45,8 +45,7 @@ const Footer = () => {
 
 
       </footer>
-      <div className='copy' style={{margin:"auto",marginBottom:"10px",textAlign:"center",width:"100%",backgroundColor:"white"}}>Copyright &copy; 2023 <span > <a href="/studentbody/#web">
-            webteam</a>  </span> @elecsa,NIT Puducherry</div>
+      <div className='copy' style={{margin:"auto",marginBottom:"10px",textAlign:"center",width:"100%",backgroundColor:"white"}}>Copyright &copy; 2023 <span >  webteam  </span> @elecsa,NIT Puducherry</div>
     </>
 
   

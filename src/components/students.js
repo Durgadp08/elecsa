@@ -4,13 +4,13 @@ import e3 from "../photos/eventteam/img2_3.jpeg"
 import e4 from "../photos/eventteam/img2_4.jpeg"
 import e5 from "../photos/eventteam/img2_5.jpeg"
 
-import core1 from "../photos/elecsateam/img1.jpeg"
-import core2 from "../photos/elecsateam/img2.jpg"
+import core1 from "../photos/elecsateam/img1.jpg"
+import core2 from "../photos/elecsateam/img2.jpeg"
 import core3 from "../photos/elecsateam/img3.jpeg"
-import core4 from "../photos/elecsateam/img4.JPG"
+import core4 from "../photos/elecsateam/img4.jpeg"
 import core5 from "../photos/elecsateam/img5.jpeg"
 import core6 from "../photos/elecsateam/img6.jpg"
-import core7 from "../photos/elecsateam/img7.jpg"
+import core7 from "../photos/elecsateam/img7.jpeg"
 import core8 from "../photos/elecsateam/img8.jpeg"
 import core9 from "../photos/elecsateam/img9.jpeg"
 import core10 from "../photos/elecsateam/img10.jpeg"
@@ -20,16 +20,16 @@ import s1 from "../photos/socialteam/img3_1.jpg"
 import s2 from "../photos/socialteam/img3_2.jpg"
 import s3 from "../photos/socialteam/img3_3.jpg"
 import s4 from "../photos/socialteam/img3_4.jpeg"
-import s5 from "../photos/socialteam/img3_5.jpg"
+import s5 from "../photos/socialteam/img3_5.jpeg"
 import s6 from "../photos/socialteam/img3_6.jpg"
 
 import w1 from "../photos/webteam/img4_1.jpeg"
 import w2 from "../photos/webteam/img4_2.png"
-import w3 from "../photos/webteam/img4_3.jpeg"
+import w3 from "../photos/webteam/img4_3.png"
 import w4 from "../photos/webteam/img4_4.jpeg"
-import w5 from "../photos/webteam/img4_5.jpg"
+import w5 from "../photos/webteam/img4_5.jpeg"
 import w6 from "../photos/webteam/img4_6.jpeg"
-import w7 from "../photos/webteam/img4_7.jpg" 
+import w7 from "../photos/webteam/img4_7.jpeg" 
  const elecsateam=[
     {         
         img:core1,
@@ -119,7 +119,7 @@ const eventteam=[
     },
     {   
         img:e3,
-        name:"PREETHAM",
+        name:"M PREETAM",
         linkedinurl:"https://www.linkedin.com/in/m-preetam-808995200/",
         year:"BTech ECE 3rd year"
     },
@@ -192,7 +192,7 @@ const webteam=[
     },
     {   
         img:w2,
-        name:'N.VAMSI',
+        name:'N.Y.VAMSI',
         linkedinurl:"https://www.linkedin.com/in/nichenametla-yadhuvamsi-8188b6274/",
         year:"BTech ECE 4th year"
     },
@@ -204,25 +204,25 @@ const webteam=[
     },
     {   
         img:w4,
-        name:'YUVARAJ',
+        name:'YUVARAJ KRISHNAN.B',
         linkedinurl:"",
         year:"BTech ECE 3rd year"
     },
     {   
         img:w5,
-        name:'GURU PRASATH',
+        name:'GURU PRASHATH.KK',
          linkedinurl:"https://www.linkedin.com/in/guru-prashath-01570827a",
          year:"BTech ECE 3rd year"
     },
     {   
         img:w6,
-        name:'SIDDARTH',
+        name:'SIDHARTH.J',
          linkedinurl:"https://www.linkedin.com/in/sidharth-j-a2b11a253",
          year:"BTech ECE 3rd year"
     },
     {   
         img:w7,
-        name:'JOTHE GANESAN',
+        name:'JOTHE GANESAN A',
          linkedinurl:"https://www.linkedin.com/in/jothe-ganesan-365a25259",
          year:"BTech ECE 2nd year"
     },
